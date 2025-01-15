@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.a {
+  border: black 4px solid;
+  width: 500px;
+  height: 500px;
+  margin: 15px;
+  position: relative;
+}
+.s {
+  background-color: rgba(36, 177, 217, 0.726);
+  width: 100px;
+  height: 100px;
+}
+.top-right {
+  top: 15px;
+  right: 15px;
+  position: absolute;
+}
+.top-left {
+  top: 15px;
+  left: 15px;
+  position: absolute;
+}
+.bottom-right {
+  bottom: 15px;
+  right: 15px;
+  position: absolute;
+}
+.bottom-left {
+  bottom: 15px;
+  left: 15px;
+  position: absolute;
+}
