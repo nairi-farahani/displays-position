@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav {
+  background-color: aqua;
+  height: 60px;
+  padding: 20px 10px;
+  position: sticky;
+}
+p {
+  padding: 5px 10px;
+  background-color: rgb(247, 236, 221);
+  height: 100rem;
+}
