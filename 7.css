@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.a {
+  background-color: green;
+  width: 30px;
+  height: 100px;
+  position: static;
+  bottom: 1px;
+}

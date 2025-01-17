@@ -3,10 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-div {
-  background-color: aquamarine;
-  width: 100px;
+#a {
+  display: inline-block;
+  background-color: rgb(80, 205, 195);
+  width: 200px;
   height: 100px;
-  top: 10px;
-  left: 20px;
+  padding: 35px;
 }
