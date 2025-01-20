@@ -5,19 +5,46 @@
 }
 .a {
   width: 400px;
-  height: 700px;
-  background-color: rgb(151, 209, 209);
-  border: 2px rgb(199, 180, 180) solid;
+  height: 500px;
+  background-color: rgb(248, 248, 242);
+  border: 2px rgb(241, 239, 239) solid;
   border-radius: 2%;
   margin: 10px;
-
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
 img {
-  width: 400px;
-  height: 350px;
-  padding: 30px;
+  width: 390px;
+  height: 300px;
+  padding: 10px 20px;
+  border-image: solid black 3px;
+  border-radius: 2%;
 }
 .apple {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: larger;
+  font-weight: bold;
+  padding: 2px 20px;
+}
+.l {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: medium;
+  padding: 2px 20px;
+}
+.price {
+  color: rgb(199, 135, 15);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: medium;
+  padding: 5px 20px;
+}
+.bo {
+  width: 115px;
+  height: 40px;
+  background-color: darkorange;
+  border-radius: 4%;
+  color: rgb(255, 255, 255);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: medium;
+  padding: 9px 15px;
+  margin: 20px;
 }
