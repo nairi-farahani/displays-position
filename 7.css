@@ -3,16 +3,20 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .section {
   position: relative;
   width: 100vh;
   height: 100vh;
   margin: auto;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
 }
 .f {
   background-color: red;
-  width: 400px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   position: absolute;
 }
 .top-right {
@@ -20,47 +24,69 @@
   right: 10px;
   border-top-left-radius: 100%;
   border-bottom-right-radius: 100%;
+  position: absolute;
+  top: 12vh;
+  right: 20vh;
+  z-index: 2;
 }
 .top-left {
   top: 10px;
   left: 10px;
   border-top-right-radius: 100%;
   border-bottom-left-radius: 100%;
+  position: absolute;
+  top: 12vh;
+  left: 14vh;
+  z-index: 2;
 }
 .bott-right {
   bottom: 10px;
   right: 10px;
   border-top-right-radius: 100%;
   border-bottom-left-radius: 100%;
+  position: absolute;
+  bottom: 24vh;
+  right: 19vh;
+  z-index: 2;
 }
 .bott-left {
   bottom: 10px;
   left: 10px;
   border-top-left-radius: 100%;
   border-bottom-right-radius: 100%;
+  position: absolute;
+  bottom: 24vh;
+  left: 14vh;
+  z-index: 2;
 }
 .d {
   display: block;
   background-color: yellow;
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 45px;
   border-radius: 100%;
-  top: 50%;
+  top: 42%;
   right: 50vh;
   position: absolute;
+  position: absolute;
+  z-index: 3;
 }
 .s {
-  width: 25px;
-  height: 560px;
+  width: 30px;
+  height: 500px;
   background-color: green;
   position: absolute;
   bottom: 0px;
-  right: 50vh;
+  right: 51vh;
+  position: absolute;
 }
 .g {
   background-color: green;
-  width: 300px;
-  height: 120px;
+  width: 220px;
+  height: 220px;
   border-top-right-radius: 100%;
   border-bottom-left-radius: 100%;
+  position: absolute;
+  bottom: 1vh;
+  left: 23vh;
 }

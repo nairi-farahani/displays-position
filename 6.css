@@ -7,25 +7,23 @@ body {
   background-color: black;
   margin: 0;
   height: 100vh;
-  /* display: flex;
+  display: flex;
   justify-content: center;
-  align-items: center; */
+  align-items: center;
 }
 .moon {
-  width: 150px;
-  height: 150px;
-  background-color: rgb(168, 168, 157);
+  width: 100px;
+  height: 100px;
+  background-color: white;
   border-radius: 50%;
   position: relative;
-  margin: auto;
-  top: 50vh;
 }
-#helal {
+.helal {
   position: absolute;
-  width: 140px;
-  height: 140px;
-  background-color: rgb(7, 5, 5);
+  width: 100px;
+  height: 100px;
+  background-color: black;
   border-radius: 50%;
-  top: 49vh;
-  left: 96vh;
+  top: -15px;
+  left: -20px;
 }
