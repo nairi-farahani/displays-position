@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  height: 950px;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+#h {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.div {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(196, 15, 15);
+  margin: 0px 1px;
+}
+.w {
+  background-color: white;
+}
