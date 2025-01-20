@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.a {
+  width: 400px;
+  height: 700px;
+  background-color: rgb(151, 209, 209);
+  border: 2px rgb(199, 180, 180) solid;
+  border-radius: 2%;
+  margin: 10px;
+
+  display: flex;
+  justify-content: center;
+}
+img {
+  width: 400px;
+  height: 350px;
+  padding: 30px;
+}
+.apple {
+}
