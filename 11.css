@@ -4,16 +4,18 @@
   box-sizing: border-box;
 }
 body {
-  height: 500px;
+  height: 950px;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: rgb(140, 200, 235);
 }
 .all {
-  width: 340px;
-  height: 440px;
+  width: 550px;
+  height: 500px;
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 .tane {
   width: 300px;
@@ -38,4 +40,102 @@ body {
   position: absolute;
   left: 42px;
   border-radius: 50% 30% 0 40%;
+}
+.bri {
+  background-color: black;
+  width: 50px;
+  height: 70px;
+  position: absolute;
+  top: 170px;
+  left: 280px;
+  border-radius: 0 100% 40% 100%;
+}
+.ble {
+  background-color: black;
+  width: 50px;
+  height: 70px;
+  position: absolute;
+  top: 170px;
+  right: 280px;
+  border-radius: 100% 0 100% 40%;
+}
+.ayl {
+  background-color: black;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 130px;
+  left: 180px;
+  border-radius: 100%;
+}
+.ayr {
+  background-color: black;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 130px;
+  right: 180px;
+  border-radius: 100%;
+}
+.ayrw {
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  position: absolute;
+  top: 133px;
+  right: 190px;
+  border-radius: 100%;
+}
+.aylw {
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  position: absolute;
+  top: 133px;
+  left: 190px;
+  border-radius: 100%;
+}
+.pr {
+  background-color: rgb(245, 182, 8);
+  width: 60px;
+  height: 30px;
+  position: absolute;
+  top: 390px;
+  right: 80px;
+  z-index: -1;
+  border-radius: 0 40% 30% 50%;
+}
+.pl {
+  background-color: rgb(245, 182, 8);
+  width: 60px;
+  height: 30px;
+  position: absolute;
+  top: 390px;
+  left: 80px;
+  z-index: -1;
+  border-radius: 40% 0 50% 30%;
+}
+.so {
+  background-color: rgb(240, 185, 194);
+  width: 40px;
+  height: 22px;
+  border-radius: 80%;
+}
+.left {
+  position: absolute;
+  top: 170px;
+  left: 190px;
+}
+.right {
+  position: absolute;
+  top: 170px;
+  right: 190px;
+}
+.nose {
+  position: absolute;
+  top: 170px;
+  right: 130px;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 30px solid rgb(255, 123, 0);
 }
